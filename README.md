@@ -38,7 +38,7 @@ S^0| 1 | 0 | 0 |
  <br>
  Number of Right Poles = 2 <br>
  <br>
- **Test Example 3 : s^5 + s^4 + 2s^3 + 3s^2 + s + 2 = 0** <br>
+**Test Example 3 : s^5 + s^4 + 2s^3 + 3s^2 + s + 2 = 0** <br>
 routh([1 1 2 3 1 2]) <br>
 Routh-Hurwitz Table: <br>
 
