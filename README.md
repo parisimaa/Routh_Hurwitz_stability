@@ -4,7 +4,7 @@ Learn more about Routh-Hurwitz stability criterion and its application in [Wikip
 - ### routh.m file: <br>
 I seperated the function into two main parts. One section operates when the number of coefficients are even and the other, when when the number of coefficients are odd. <br>
 Test Example: s^4 + 4s^3 + 5s^2 + 6s +8 = 0 <br>
->> routh([1 4 5 6 8]) <br>
+routh([1 4 5 6 8]) <br>
 Routh-Hurwitz Table: <br>
 --- | --- | ---
 | 1 | 5 | 8 |
