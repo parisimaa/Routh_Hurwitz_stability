@@ -6,11 +6,9 @@ I seperated the function into two main parts. One section operates when the numb
 Test Example: s^4 + 4s^3 + 5s^2 + 6s +8 = 0 <br>
 routh([1 4 5 6 8]) <br>
 Routh-Hurwitz Table: <br>
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
+|C1|C2|C3|
+|---|---|---|
 | 1 | 5 | 8 |
 | 4 | 6 | 0 |
 |3.5| 8 | 0 |
