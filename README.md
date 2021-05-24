@@ -19,10 +19,10 @@ S^0| 8 | 0 | 0 |
  
 - ### srouth.m file:
 This function file is the optimized version of the first routh.m file. 
- 1. Even and odd coefficients sectiones are combined. 
- 2. Special conditions have been considered. 
-   - One element in the first column is zero ( using Epsilon)
-   - All elements of a row are zero ( using auxiliary function)
+  1. Even and odd coefficients sectiones are combined. 
+  2. Special conditions have been considered. 
+     - One element in the first column is zero ( using Epsilon)
+     - All elements of a row are zero ( using auxiliary function)
 <br>
 **Test Example 2 : s^4 + s^3 + s^2 + s + 1 = 0** <br>
 routh([1 1 1 1 1]) <br>
