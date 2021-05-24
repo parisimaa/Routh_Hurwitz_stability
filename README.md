@@ -16,12 +16,14 @@ S^1| -3.1429 | 0 | 0 |
 S^0| 8 | 0 | 0 |
  <br>
  Number of Right Poles = 2 <br>
+ 
 - ### srouth.m file:
 This function file is the optimized version of the first routh.m file. 
 1. Even and odd coefficients sectiones are combined. 
 2. Special conditions have been considered. 
  - One element in the first column is zero ( using Epsilon)
  - All elements of a row are zero ( using auxiliary function)
+
 **Test Example 2 : s^4 + s^3 + s^2 + s + 1 = 0** <br>
 routh([1 1 1 1 1]) <br>
 Routh-Hurwitz Table: <br>
@@ -35,6 +37,7 @@ S^1| -99 | 0 | 0 |
 S^0| 1 | 0 | 0 |
  <br>
  Number of Right Poles = 2 <br>
+ 
  **Test Example 3 : s^5 + s^4 + 2s^3 + 3s^2 + s + 2 = 0** <br>
 routh([1 1 2 3 1 2]) <br>
 Routh-Hurwitz Table: <br>
