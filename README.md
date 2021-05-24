@@ -1,6 +1,6 @@
 # Routh_Hurwitz_stability
 ## Description:
-Learn more about Routh-Hurwitz stability criterion and its application here: https://en.wikipedia.org/wiki/Routh%E2%80%93Hurwitz_stability_criterion <br>
+Learn more about Routh-Hurwitz stability criterion and its application in [Wikipedia](https://en.wikipedia.org/wiki/Routh%E2%80%93Hurwitz_stability_criterion ): <br>
 1. routh.m file: <br>
 I seperated the function into two main parts. One section operates when the number of coefficients are even and the other, when when the number of coefficients are odd. <br>
 Test Example: $s^4 + 4s^3 + 5s^2 + 6s +8 = 0 $ <br>
