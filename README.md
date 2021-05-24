@@ -7,7 +7,7 @@ Test Example: s^4 + 4s^3 + 5s^2 + 6s +8 = 0 <br>
 routh([1 4 5 6 8]) <br>
 Routh-Hurwitz Table: <br>
 
-|--- | --- | ---|
+
 | 1 | 5 | 8 |
 | 4 | 6 | 0 |
 |3.5| 8 | 0 |
